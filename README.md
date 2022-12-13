@@ -13,6 +13,12 @@ As of now only frontend is hosted, as there is problem in hosting backend.
 
 Frontend is hosted on Netlify, Link: https://dulcet-liger-0ecb80.netlify.app
 
+Routes for Frontend : 
+                        1) '/user/login' : Route for Login page
+                        2) '/landing' : Route for a registered user
+                        3) '/user/payment' : Route for user to pay fee
+                        4) '/user/payment/success' : Route for user token
+
 
 ## Project Assumption
 I have created this app with certain point : A__
