@@ -7,7 +7,7 @@ const Login = () => {
     const [password,setPassword] = useState("");
     const route = useNavigate();
     const loginHandle = ()=>{
-        axios.post('http://localhost:3002/api/login',{email,password})
+        axios.post('https://backend-4la3.onrender.com/api/login',{email,password})
         .then(()=>{
             route('/landing');
         })

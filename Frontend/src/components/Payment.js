@@ -32,7 +32,7 @@ const Payment = ({user}) => {
                 const fee = 1;
                 localStorage.setItem("userName",name);
                 localStorage.setItem("userid",id);
-                axios.post('http://localhost:3002/api/pay',{email})
+                axios.post('https://backend-4la3.onrender.com/api/pay',{email})
                 .then(()=>{
                     alert("success");
                     setTimeout(()=>{

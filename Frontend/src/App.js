@@ -21,7 +21,7 @@ function App() {
   }
   useEffect(()=>{
     if(user && user.value){
-    axios.post('http://localhost:3002/api/create',(user.value))
+    axios.post('https://backend-4la3.onrender.com/api/create',(user.value))
     .then(()=>{
       localStorage.setItem("userId",user.value.id);
       localStorage.setItem("user",user.value.name);
